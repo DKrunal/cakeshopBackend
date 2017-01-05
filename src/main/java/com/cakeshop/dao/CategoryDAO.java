@@ -1,0 +1,15 @@
+package com.cakeshop.dao;
+
+import java.util.List;
+
+import com.cakeshop.model.Category;
+
+
+public interface CategoryDAO {
+	public List<Category> getCategory();
+	public Category getCategoryById(String id);
+	public Category isValid(String id, String password);
+	public boolean save(Category category);
+	public boolean update(Category category);
+	public boolean delete(String id);
+}

@@ -1,0 +1,4 @@
+com\cakeshop\model\User.class
+com\cakeshop\config\ApplicationContextConfig.class
+com\cakeshop\dao\impl\UserDAOImpl.class
+com\cakeshop\dao\UserDAO.class
